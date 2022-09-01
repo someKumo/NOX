@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "nox:block/nox_block" }
+  }
+}
