@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "NOX",
+  "version": "${version}",
+  "name": "NOX",
+  "description": "",
+  "authors": [
+    "simplykumo"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/NOX/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "de.kumo.nox.client.NOXClient"
+    ],
+    "main": [
+      "de.kumo.nox.NOX"
+    ]
+  },
+  "mixins": [
+    "NOX.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
